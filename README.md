@@ -1,2 +1,2 @@
 # notbook
-study summary during working and life
+study summary during working and life.
