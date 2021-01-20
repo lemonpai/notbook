@@ -18,13 +18,13 @@ function config() {
 }
 
 function pull() {
-    git pull ${project_name} master
+    git pull ${project_name} main
 }
 
 function push() {
     git add -A .
     git commit -m "$*"
-    git push ${project_name} master
+    git push ${project_name} main
 }
 
 function diff() {
